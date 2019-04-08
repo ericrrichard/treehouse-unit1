@@ -7,33 +7,34 @@ project 1 - A Random Quote Generator
 
 
 // Quotes to randomly iterate through
-var quotes = [
-	      { 
-		  quote: "All in all it's just another brick in the wall.",
-		  source: "Pink Floyd",
-		  citation: "Another Brick in the Wall",
-		  year: 1979 
-	      },
-	      { 
-		  quote: "What's love got to do, got to do with it?",
-		  source: "Tina Turner" 
-	      },
-	      { 
-		  quote: "Is this the real life? Is this just fantasy?",
-		  source: "Queen",
-		  citation: "Bohemian Rhapsody" 
-	      },
-	      { 
-		  quote: "I am the egg man. They are the egg men. I am the walrus. Goo goo g'joob.",
-		  source: "The Beatles" 
-	      },
-	      { 
-		  quote: "She wore a Raspberry beret. The kind you find in a second hand store.",
-		  source: "Prince and the Revolution",
-		  citation: "Raspberry Beret",
-		  year: 1985 
-	      } 
- ];
+var quotes = 
+    [
+     { 
+	 quote: "All in all it's just another brick in the wall.",
+	 source: "Pink Floyd",
+	 citation: "Another Brick in the Wall",
+	 year: 1979 
+     },
+     { 
+	 quote: "What's love got to do, got to do with it?",
+	 source: "Tina Turner" 
+     },
+     { 
+	 quote: "Is this the real life? Is this just fantasy?",
+	 source: "Queen",
+	 citation: "Bohemian Rhapsody" 
+     },
+     { 
+	 quote: "I am the egg man. They are the egg men. I am the walrus. Goo goo g'joob.",
+	 source: "The Beatles" 
+     },
+     { 
+	 quote: "She wore a Raspberry beret. The kind you find in a second hand store.",
+	 source: "Prince and the Revolution",
+	 citation: "Raspberry Beret",
+	 year: 1985 
+     } 
+     ];
 
 console.log( quotes );
 
